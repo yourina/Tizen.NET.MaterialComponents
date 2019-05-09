@@ -33,7 +33,7 @@ namespace MaterialGallery
                 UIExit();
             };
 
-            var conformant = new Conformant(_mainWindow);
+            var conformant = new MConformant(_mainWindow);
             conformant.Show();
 
             var box = new Box(_mainWindow)
